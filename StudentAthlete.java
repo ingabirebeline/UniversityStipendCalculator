@@ -1,4 +1,4 @@
-class StudentAthlete extends Student {
+public class StudentAthlete extends Student {
 
     int seasonsPlayed;
 

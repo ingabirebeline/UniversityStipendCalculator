@@ -1,4 +1,5 @@
-double yearlyResearchGrant;
+public class PostDoctoralFellow extends Student {
+    double yearlyResearchGrant;
 
     PostDoctoralFellow(String name, double yearlyResearchGrant) {
         super(name);

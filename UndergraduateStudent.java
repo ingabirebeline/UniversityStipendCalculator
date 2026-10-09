@@ -1,4 +1,5 @@
-double gpa;
+public class UndergraduateStudent extends Student {
+    double gpa;
 
     UndergraduateStudent(String name, double gpa) {
         super(name);

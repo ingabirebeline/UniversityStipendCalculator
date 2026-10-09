@@ -1,4 +1,5 @@
-double taHours;
+public class GraduateStudent extends Student {
+    double taHours;
     double yearlyResearchGrant;
 
     GraduateStudent(String name, double taHours, double yearlyResearchGrant) {

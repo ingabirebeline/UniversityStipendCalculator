@@ -1,4 +1,5 @@
-boolean highCostCountry;
+public class ExchangeStudent extends Student {
+    boolean highCostCountry;
 
     ExchangeStudent(String name, boolean highCostCountry) {
         super(name);

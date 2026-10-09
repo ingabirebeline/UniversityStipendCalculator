@@ -22,18 +22,3 @@ public class Main {
         System.out.println("Total payroll: $" + totalPayroll);
     }
 }
-[23:53, 10/4/2026] Benigne She Can Code: class PostDoctoralFellow extends Student {
-
-    double yearlyResearchGrant;
-
-    PostDoctoralFellow(String name, double yearlyResearchGrant) {
-        super(name);
-        this.yearlyResearchGrant = yearlyResearchGrant;
-    }
-
-    @Override
-    double calculateMonthlyStipend() {
-        return 3000 + (yearlyResearchGrant / 12);
-    }
-}
-}
